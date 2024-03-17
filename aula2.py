@@ -4,8 +4,8 @@ essa sequencia de 3 aspas duplas é uma DocString, ela nâo aparece porém é li
 
 
 # aspas simples '
-print('diogo "gabriel"')
+print("Diogo 'Gabriel'")
 #aspas duplas ""
-print("diogo 'gabriel'")
+print('Diogo "Gabiel"')
 # escape \
-print('diogo \'gabriel\'')
+print('Diogo \'Gabiel\'')

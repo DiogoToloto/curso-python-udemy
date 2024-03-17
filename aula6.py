@@ -8,7 +8,7 @@
 #soma_dois_mais_dois = 2 + 2
 #print(nome_completo, soma_dois_mais_dois)
 nome = 'diogo'
-idade = 19
+idade = 17
 maior_de_idade = idade >= 18
 print(f'Nome: {nome}, Idade: {idade}' )
 print(f'É maior de idade? {maior_de_idade}')
