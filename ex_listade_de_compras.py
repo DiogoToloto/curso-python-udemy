@@ -23,7 +23,14 @@ while True:
     elif entrada == 'apagar' or entrada == 'a':
         os.system('cls')
         valorApagar = input('Escolha o índice para apagar:')
-        lista.pop(int(valorApagar))
+
+        try:
+            indice = int(valorApagar)
+            del lista[indice]
+        except ValueError:
+            print('Por favor digite um número inteiro')
+        except IndexError:
+            print('Indice não existe na lista')
 
     elif entrada == 'listar' or entrada == 'l':
         os.system('cls')
